@@ -1,0 +1,120 @@
+:root {
+  --primaryColor: #5753C9;
+  --secondaryColor: #e0e0e0;
+  --tertiaryColor: #212121;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(61,78,129,1) 0%, rgba(87,83,201,1) 48%, rgba(110,127,243,1) 100%);
+  font-family: 'Ubuntu';
+  color: #f5f5f5;
+  font-weight: 300;
+}
+
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #111111;
+  box-shadow: 15px 15px 20px #424242;
+  border-radius: 60px;
+}
+
+#titlePage {
+  background: #212121;
+  color: var(--secondaryColor);
+  padding: 25px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
+#container .textContainer {
+  color: #f5f5f5;
+}
+
+#container .textContent {
+  color: #e0e0e0;
+}
+
+#container .formInput {
+  background: transparent;
+  width: 40px;
+  padding: 10px;
+  color: #f5f5f5;
+  border-radius:15px;
+  border: 2px solid var(--primaryColor);
+  text-align: center;
+  margin: 0 5px;
+}
+
+#container .formInput:focus {
+  font-weight: bold;
+}
+
+#container .formSelect {
+  width: auto;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #111111;
+  color: #f5f5f5;
+  border-radius: 15px;
+  border: 2px solid var(--primaryColor);
+}
+
+#container .formSelect:focus {
+  border-color: white;
+  font-weight: bold;
+}
+
+#container .formSubmit {
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin: 30px auto;
+    background: var(--primaryColor);
+    border-radius: 30px;
+    border-color: #ffffff;
+    border-style: none;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    transition: 0.2s;
+}
+
+#container .formSubmit:hover {
+  transform: scale(1.1);
+  background: #6E7FF3;
+  color: black;
+  font-weight: bold;
+}
+
+#container #totalTip {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
