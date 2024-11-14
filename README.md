@@ -1,0 +1,1 @@
+A simple project, created during OneBitCode's "Start" mini-course, with a design adapted to my style. It contains the following technologies: HTML, CSS and Javascriptp. Responsiveness is not present, however, the interface is "quite" interactive with the user.
