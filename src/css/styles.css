@@ -1,44 +1,40 @@
 :root {
-  --primaryColor: #5753C9;
+  --primaryColor: #aaaaaa;
   --secondaryColor: #e0e0e0;
   --tertiaryColor: #212121;
   height: 100%;
 }
 
 body {
-  background: linear-gradient(90deg, rgba(61,78,129,1) 0%, rgba(87,83,201,1) 48%, rgba(110,127,243,1) 100%);
+  background: black;
   font-family: 'Ubuntu';
   color: #f5f5f5;
   font-weight: 300;
 }
 
 #container {
-  height: 525px;
+  height: auto;
+  padding-bottom: 20px;
   width: 360px;
   margin: 100px auto;
   background: #111111;
-  box-shadow: 15px 15px 20px #424242;
-  border-radius: 60px;
+  border-radius: 16px;
 }
 
 #titlePage {
-  background: #212121;
-  color: var(--secondaryColor);
+  background: var(--primaryColor);
+  color: black;
   padding: 25px;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: normal;
-  border-top-left-radius: 200px;
-  border-top-right-radius: 200px;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   text-align: center;
   margin-bottom: 20px;
 }
 
 #tipsForm {
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: center;
 }
 
@@ -65,7 +61,7 @@ input[type=number] {
   width: 40px;
   padding: 10px;
   color: #f5f5f5;
-  border-radius:15px;
+  border-radius:8px;
   border: 2px solid var(--primaryColor);
   text-align: center;
   margin: 0 5px;
@@ -82,7 +78,7 @@ input[type=number] {
   text-align: center;
   background-color: #111111;
   color: #f5f5f5;
-  border-radius: 15px;
+  border-radius: 8px;
   border: 2px solid var(--primaryColor);
 }
 
@@ -97,18 +93,18 @@ input[type=number] {
     display: block;
     margin: 30px auto;
     background: var(--primaryColor);
-    border-radius: 30px;
+    border-radius: 4px;
     border-color: #ffffff;
     border-style: none;
-    padding: 20px;
-    font-size: 15px;
-    color: white;
+    padding: 16px;
+    font-size: 14px;
+    color: black;
     transition: 0.2s;
 }
 
 #container .formSubmit:hover {
   transform: scale(1.1);
-  background: #6E7FF3;
+  background: white;
   color: black;
   font-weight: bold;
 }
