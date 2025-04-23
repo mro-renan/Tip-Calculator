@@ -78,7 +78,7 @@ input[type=number] {
   text-align: center;
   background-color: #111111;
   color: #f5f5f5;
-  border-radius: 8px;
+  border-radius: 4px;
   border: 2px solid var(--primaryColor);
 }
 
